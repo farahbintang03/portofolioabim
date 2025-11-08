@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farah Bintang — Mahasiswa Hukum</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-900 text-white">
+    <header class="sticky top-0 bg-gray-800/70 backdrop-blur-md border-b border-white/10">
+      <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <h1 class="font-semibold text-lg">Farah B.</h1>
+        <nav class="hidden md:flex gap-6 text-sm">
+          <a href="#home" class="hover:underline">Beranda</a>
+          <a
+            href="about.html"
+            class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+            >Tentang Saya</a
+          >
+          <a href="#portfolio" class="hover:underline">Portofolio</a>
+          <a href="#blog" class="hover:underline">Thoughts</a>
+          <a href="#cv" class="hover:underline">CV</a>
+          <a href="#contact" class="hover:underline">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="space-y-32">
+      <!-- Bagian Beranda dengan Foto -->
+      <section id="home" class="min-h-screen flex items-center justify-center px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+          <!-- Foto -->
+          <div class="w-full md:w-1/3 flex justify-center">
+            <img
+              src="farah1.png"
+              alt="Foto Farah Bintang"
+              class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-indigo-600 shadow-lg hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+
+          <!-- Teks -->
+          <div class="w-full md:w-2/3 text-center md:text-left">
+            <h2 class="text-4xl font-bold mb-4">
+              Farah Bintang — <span class="text-indigo-400">Mahasiswa Hukum</span>
+            </h2>
+            <p class="text-lg text-gray-300 max-w-2xl">
+              Tertarik pada hukum bisnis, regulasi keuangan digital, dan kebijakan cryptocurrency.
+              Menyukai riset, debat, dan menulis opini yang mudah diakses publik.
+            </p>
+            <div class="mt-6 flex justify-center md:justify-start gap-4">
+              <a
+                href="#portfolio"
+                class="px-4 py-2 border rounded-lg hover:bg-white hover:text-gray-900 transition"
+                >Lihat Portofolio</a
+              >
+              <a
+                href="#contact"
+                class="px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-700 transition"
+                >Hubungi Saya</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tentang Saya -->
+      <section id="about" class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-6">Tentang Saya</h2>
+        <p class="text-gray-300 mb-6">
+          Saya Farah, mahasiswa hukum (S1) yang fokus pada hukum bisnis dan teknologi. Aktif di
+          organisasi kampus, lomba debat, dan penelitian terkait regulasi fintech. Saya percaya hukum
+          harus dapat dijangkau oleh publik dan mengikuti perkembangan teknologi.
+        </p>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium mb-2">Keahlian</h3>
+            <ul class="text-sm space-y-1">
+              <li>- Analisis hukum</li>
+              <li>- Research & drafting</li>
+              <li>- Public speaking & debate</li>
+              <li>- Legal tech awareness</li>
+            </ul>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium mb-2">Pencapaian</h3>
+            <ul class="text-sm space-y-1">
+              <li>- Finalis Lomba Debat Nasional 2024</li>
+              <li>- Penulis opini di media kampus</li>
+              <li>- Asisten riset topik regulasi crypto</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portofolio -->
+      <section id="portfolio" class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-6">Portofolio</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium">Makalah: Regulasi Cryptocurrency di Indonesia</h3>
+            <p class="text-sm text-gray-400 mt-2">
+              Analisis perbandingan kebijakan antara Indonesia dan beberapa negara ASEAN.
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium">Opini: Etika AI di Sistem Peradilan</h3>
+            <p class="text-sm text-gray-400 mt-2">
+              Opini populer tentang risiko dan solusi penggunaan AI dalam pengambilan keputusan
+              hukum.
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium">Riset: Perlindungan Konsumen Fintech</h3>
+            <p class="text-sm text-gray-400 mt-2">
+              Ringkasan riset singkat yang disusun bersama tim studi hukum.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section id="blog" class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-6">Thoughts</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium">Apakah AI Bisa Menggantikan Notaris?</h3>
+            <p class="text-sm text-gray-400 mt-2">
+              Refleksi tentang batas etika profesi hukum di era digital.
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium">Hukum dalam Dunia Crypto</h3>
+            <p class="text-sm text-gray-400 mt-2">
+              Analisis ringan tentang arah kebijakan regulasi keuangan digital di Indonesia.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CV -->
+      <section id="cv" class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-6">CV</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium mb-2">Pendidikan</h3>
+            <p class="text-sm text-gray-400">Universitas Contoh — S1 Ilmu Hukum (2022–Sekarang)</p>
+            <h3 class="font-medium mt-4 mb-2">Organisasi</h3>
+            <ul class="text-sm text-gray-400 list-disc list-inside">
+              <li>Ketua Divisi Hukum</li>
+              <li>Asisten Riset Fakultas Hukum</li>
+            </ul>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <h3 class="font-medium mb-2">Sertifikat & Kursus</h3>
+            <ul class="text-sm text-gray-400 list-disc list-inside">
+              <li>Legal Research Workshop — 2024</li>
+              <li>Fintech Regulation Bootcamp — 2023</li>
+            </ul>
+            <a
+              href="#"
+              class="mt-4 inline-block bg-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-700"
+              >Unduh CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontak -->
+      <section id="contact" class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-6">Kontak</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <form class="bg-gray-800 p-6 rounded-lg space-y-4">
+            <input
+              type="text"
+              placeholder="Nama"
+              class="w-full p-2 bg-transparent border border-white/20 rounded"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="w-full p-2 bg-transparent border border-white/20 rounded"
+            />
+            <textarea
+              placeholder="Pesan"
+              class="w-full h-28 p-2 bg-transparent border border-white/20 rounded"
+            ></textarea>
+            <button class="bg-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-700">Kirim</button>
+          </form>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <p class="text-sm">Email: farahbintang.law@example.com</p>
+            <p class="text-sm">LinkedIn: linkedin.com/in/farahbintang</p>
+            <p class="text-sm">Lokasi: Jakarta, Indonesia</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="text-center py-6 text-sm text-gray-400 border-t border-white/10 mt-20"
+    >
+      © 2025 Farah Bintang — Mahasiswa Hukum.
+    </footer>
+  </body>
+</html>

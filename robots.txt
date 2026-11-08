@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://farahbintang.netlify.app/sitemap.xml
